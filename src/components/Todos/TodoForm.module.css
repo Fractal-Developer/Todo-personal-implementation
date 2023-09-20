@@ -1,0 +1,32 @@
+h1 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+input {
+    margin: 10px;
+    width: 65%;
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+}
+
+form {
+    border: none;
+}
+
+select {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    /* for Firefox */
+	-moz-appearance: none;
+	/* for Chrome */
+	-webkit-appearance: none;
+    background-color: var(--background-color-form);
+    border: 0;
+    color: var(--color) ;
+}

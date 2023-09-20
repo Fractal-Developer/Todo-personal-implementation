@@ -1,0 +1,13 @@
+.button {
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: inline-block;
+    height: 35px;
+    margin: 5px;
+    vertical-align: -3px;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}

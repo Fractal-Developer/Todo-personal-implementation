@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html[data-theme='dark'] {
+    --background-color: rgb(53, 92, 146);
+    --color: white;
+    --background-color-form: rgb(23, 54, 100);
+}
+
+html[data-theme='light'] {
+    --background-color: hwb(0 58% 42%);
+    --color: black;
+    --background-color-form: rgb(207, 207, 207);
+}
+
+html[data-theme='blue'] {
+    --background-color: hwb(202 22% 59%);
+    --color: black;
+    --background-color-form: rgb(102, 163, 180);
+}
+html {
+    background-color: var(--background-color);
+    color: var(--color);
+}

@@ -1,0 +1,39 @@
+.element{
+background-color: var(--background-color-form);
+border: 1px solid var(--color);
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+width: 100%;
+display: flex;
+float: right;
+}
+
+.pp {
+    display: block;
+    width: 100%;
+}
+
+.icon {
+    font-size: 1.3rem;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.iconDel:hover {
+    color: red;
+}
+
+.iconCompl:hover {
+    color: green;
+}
+
+.noActive {
+    color: gray;
+    width: 96.3%;
+}

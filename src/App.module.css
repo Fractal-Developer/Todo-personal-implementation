@@ -1,0 +1,36 @@
+.app {
+    display: flex;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    height: min-content;
+}
+
+.form {
+    background-color: var(--background-color-form);
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    top: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    position: fixed;
+    height: 145px;
+}
+
+.list {
+    height: 73%;
+    width: 50%;
+    margin: 175px auto;
+    position: fixed;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+
+
+
