@@ -10,7 +10,7 @@ document.documentElement.setAttribute('data-theme', 'dark');
 ReactDOM
     .createRoot(document.getElementById('root'))
     .render(
-        <ThemeContext.Provider value="light">
+        <ThemeContext.Provider value="dark">
             <App />
         </ThemeContext.Provider>
     );

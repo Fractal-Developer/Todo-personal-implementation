@@ -33,8 +33,8 @@ export default function TodoForm({ addTodoList, string }) {
         <input ref={elementImput} type="text" placeholder='Enter todo' autoFocus />
         <Button onClick={onSubmit} type='submit'><RiDownloadLine /></Button>
         <select id="lang" onChange={changeTheme}>
-            <option value="light">light</option>
             <option value="dark">dark</option>
+            <option value="light">light</option>
             <option value="blue">blue</option>
         </select>
     </form>
